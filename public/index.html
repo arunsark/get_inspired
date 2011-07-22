@@ -14,7 +14,7 @@
 
 <html>
   <head>
-    <title>Presentation</title>
+    <title>Get Inspired! Learn Ruby</title>
 
     <meta charset='utf-8'>
     <script
@@ -67,21 +67,21 @@
       </article>
 
       <article>
-        <h3> Ruby can get you jobs! </h3>
+        <h3> Ruby can get you <span class='red'>jobs!</span> </h3>
         <p>
           <img style='height: 500px; width: 750px;' src="images/job_board.png">
         </p>
       </article>
 
       <article>
-        <h3> Ruby can get you jobs! </h3>
+        <h3> Ruby can get you <span class='red'>jobs!</span> </h3>
         <p>
           <img style='height: 500px; width: 750px;' src="images/linkedin_jobs.png">
         </p>
       </article>
 
       <article>
-        <h3> Learn Ruby for Rails! </h3>
+        <h3> Learn Ruby for <span class='red'>Rails!</span> </h3>
         <p>
           <img style='height: 400px; width: 400px;' src="images/rails.png">
           <img src="images/dhh.jpg">
@@ -90,7 +90,7 @@
       </article>
 
       <article>
-        <h3>Evolution of Ruby </h3>
+        <h3>Evolution of <span class='red'>Ruby</span> </h3>
         <ul class="build" style='list-style-type: none;'>
           <li> 1993 </li>
           <li> 1 User </li>
@@ -104,7 +104,7 @@
       </article>
 
       <article>
-        <h3>Evolution of Ruby </h3>
+        <h3>Evolution of <span class='red'>Ruby</span> </h3>
         <ul class="build" style='list-style-type: none;'>
           <li> 1995 - 100 Users </li>
           <li> 2000 - 10,000 Users </li>
@@ -115,7 +115,7 @@
       </article>
 
       <article>
-        <h3>But Ruby </h3>
+        <h3>But <span class='red'>Ruby</span> </h3>
         <ul class="build">
           <li> is not the Easiest </li>
           <li> is not the Simplest  </li>
@@ -125,12 +125,27 @@
       </article>
 
       <article>
-        <h3>But Ruby </h3>
+        <h3>But <span class='red'>Ruby</span> </h3>
         <ul class="build">
           <li> is fun </li>
           <li> makes you productive  </li>
           <li> gives power, freedom & joy  </li>
           <li> has a great community </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3> <span class='red'>Ruby</span> Manifesto </h3>
+        <ul>
+          <li>
+Principle of least surprise (the developer should not be surprised by the way an API works).
+          </li>
+<li>
+  Principle of succinctness (shorter code is easier to write, read and maintain).
+</li>
+<li>
+Principle of human interface (the language should be written for the developer, not the machine).
+          </li>
         </ul>
       </article>
 
@@ -150,7 +165,7 @@
       </article>
 
       <article>
-        <h1> Moore's Law </h1>
+        <h1> <span class='red'>Moore's</span> Law </h1>
         <p>
           The number of transistors that can be placed inexpensively on an IC doubles approximately every two year
         </p>
@@ -573,216 +588,319 @@ puts make_it_swim(Goose.new)
   </p>  
 </article>
 
+<article>
+<h3> <span class='red'>Monkey</span> Patching </h3>
+<img src='images/monkey.jpeg'>
+</article>
 
-    <article>
-        <h3>
-          Slide with a table
-        </h3>
-        
-        <table>
-          <tr>
-            <th>
-              Name
-            <th>
-              Occupation
-          <tr>
-            <td>
-              Luke Mahé
-            <td>
-              V.P. of Keepin’ It Real
-          <tr>
-            <td>
-              Marcin Wichary
-            <td>
-              The Michael Bay of Doodles
-        </table>
-      </article>
-      
-      <article class='smaller'>
-        <h3>
-          Slide with a table (smaller text)
-        </h3>
-        
-        <table>
-          <tr>
-            <th>
-              Name
-            <th>
-              Occupation
-          <tr>
-            <td>
-              Luke Mahé
-            <td>
-              V.P. of Keepin’ It Real
-          <tr>
-            <td>
-              Marcin Wichary
-            <td>
-              The Michael Bay of Doodles
-        </table>
-      </article>
-      
-      <article>
-        <h3>
-          Styles
-        </h3>
-        <ul>
-          <li>
-            <span class='red'>class="red"</span>
-          <li>
-            <span class='blue'>class="blue"</span>
-          <li>
-            <span class='green'>class="green"</span>
-          <li>
-            <span class='yellow'>class="yellow"</span>
-          <li>
-            <span class='black'>class="black"</span>
-          <li>
-            <span class='white'>class="white"</span>
-          <li>
-            <b>bold</b> and <i>italic</i>
-        </ul>
-      </article>
-      
-      <article>
-        <h2>
-          Segue slide
-        </h2>
-      </article>
+<article class='smaller'>
+<h3><span class='red'>Monkey</span> Patching</h3>
+<q>
+A monkey patch is a way to extend or modify the run-time code of dynamic languages without altering the original source code.
+</q>
+</article>
 
-      <article>
-        <h3>
-          Slide with an image
-        </h3>
-        <p>
-          <img style='height: 500px' src='images/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Sergey Brin
-        </div>
-      </article>
+<article>
+<h3><span class='red'>Monkey</span> Patching</h3>
+<section>
+<pre>
+class MyClass
+end
 
-      <article>
-        <h3>
-          Slide with an image (centered)
-        </h3>
-        <p>
-          <img class='centered' style='height: 500px' src='images/example-graph.png'>
-        </p>
-        <div class='source'>
-          Source: Larry Page
-        </div>
-      </article>
+obj = MyClass.new
+obj1 = MyClass.new
 
-      <article class='fill'>
-        <h3>
-          Image filling the slide (with optional header)
-        </h3>
-        <p>
-          <img src='images/example-cat.jpg'>
-        </p>
-        <div class='source white'>
-          Source: Eric Schmidt
-        </div>
-      </article>
+def obj.say_monkey
+  puts "Hello Monkey!"
+end
 
-      <article>
-        <h3>
-          This slide has some code
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
+obj.say_monkey # Hello Monkey!
+obj1.say_monkey # BOOM!
 </pre>
-        </section>
-      </article>
-      
-      <article class='smaller'>
-        <h3>
-          This slide has some code (small font)
-        </h3>
-        <section>
-        <pre>
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }
-  }
-&lt;/script&gt;
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-  u { color: 'umber' }
-&lt;/style&gt;
+</section>
+</article>
+
+<article>
+<h3><span class='red'>Monkey</span> Patching</h3>
+<p> What about having a new method in String? </p>
+<section>
+<pre>
+class String
+  def titelize
+    self.gsub!(/(\A\w)|(\s\w)/) { |s| s.upcase }
+  end
+end
+
+"ruby programming language".titelize # Ruby Programming Language
 </pre>
-        </section>
+</section>
+</article>
+
+
+<article>
+<h3><span class='red'>Monkey</span> Patching</h3>
+<q style='margin-left:175px'>
+  <img src='images/spiderman.jpg'>
+</q>    
+</article>
+
+<article>
+<h3><span class='red'>Blocks</span></h3>
+<p> Block is just a chunk of code </p>
+<section>
+<pre>
+# traditional way
+for i in 0..5
+  word = top_five[i][0]
+  count = top_five[i][1]
+  puts "#{word} #{count}"
+end
+
+# Ruby Way
+top_five.each do |word,count|
+  puts "#{word} #{count}"
+end
+
+# Or even more functional way
+puts top_five.map {|word, count| "#{word} : #{count}"}
+</pre>
+</section>
+</article>
+
+<article>
+<h3><span class='red'>Blocks</span></h3>
+<p> Block is just a chunk of code </p>
+<p> Block is enclosed between {} or do..end </p>
+<p> Block appears only after method invocation </p>
+<p> Block is kind of a parameter for the method </p>
+</article>
+
+<article>
+<h3><span class='red'>Blocks</span></h3>
+<section>
+<pre>
+def three_times
+  i = 0
+  yield
+  i += 1
+  yield
+  i += 2
+  yield
+end
+
+three_times { |i| puts "Ruby Block #{i}" }
+
+[1,2,3,4].inject { |sum,element| sum+element }
+</pre>
+</section>
+</article>
+
+<article>
+<h3> <span class='red'>Gems</span> & Jars</span> </h3>
+<table>
+<tr>
+<th class='red'> Ruby </th>
+<th> Java </th>
+</tr>
+<tr>
+<td style='padding-left:85px;'>
+<img src='images/gems.png' style='height:128px; width:128px;'>
+</td>
+<td style='padding-left:85px;'>
+<img src='images/jar.jpg'>
+</td>
+</tr>
+</table>
+</article>
+
+<article>
+<h1>Ruby <span class='red'>Code Katas</span></h1>
+<p>http://codekata.pragprog.com/</p>
+</article>
+
+<article>
+<h1><span class='red'>File</span> Operations </h1>
+</article>
+
+<article>
+<h3>Recursively delete all Ruby files within a directory</h3>
+<section>
+<pre>
+  dir = 'temp/'
+  Dir["#{dir}/**/*"].each do |entry|
+      File.delete(entry) if File.file?(entry)
+  end
+</pre>
+</section>
+</article>
+
+
+<article>
+<h1><span class='red'>HTTP</span> Access</h1>
+</article>
+
+<article>
+<h3> Search ATRI in google</h3>
+<section>
+<pre>
+require 'net/http'
+require 'uri'
+uri = URI.parse("http://www.google.com/search?q=ATRI")
+response = Net::HTTP.get_response(uri)
+
+File.open("result.html","w") do |f|
+  f.write(response.body)
+end
+</pre>
+</section>
+</article>
+
+<article>
+<h1><span class='red'>Parse</span> HTML</h1>
+</article>
+
+<article>
+  <h3> Parse HTML and extract links </h3>
+<pre>
+require 'hpricot'
+require 'iconv'
+
+
+doc = File.open("result.html") do |f|
+  Hpricot(Iconv.conv('utf-8', 'ISO-8859-1', f.readlines.join("\n")))
+end
+
+
+(doc/"div#ires ol > li").each do |li|
+  (li/"h3 a").each do |link|
+    puts "=" * 100
+    puts link.inner_text
+    puts "Link #{link.get_attribute('href')}"
+  end
+end
+    puts "=" * 100
+</pre>
+</article>
+
+
+<article>
+<h1>Screen <span class='red'>Scrapping</span></h1>
+</article>
+
+<article>
+<h3>Screen <span class='red'>Scrapping</span></h3>
+<section>
+<pre>
+require 'mechanize'
+search_term = ARGV[0]
+search_link = ARGV[1]
+
+rank = catch(:rank) {
+  agent = Mechanize.new
+  agent.get('http://www.google.com/') do |page|
+    search_result = page.form_with(:name=>'f') do |search|
+      search.q = ARGV[0]
+    end.submit
+    url = Regexp.new(".*" + Regexp.escape(ARGV[1]) + ".*")
+    puts url
+    search_result.root.css(".r").each_with_index do |result, i|
+      link = result.search(".//a")
+      href = link.map {|node| node['href']}
+
+      if href[0] =~ url
+        throw :rank, i+1
+      end
+    end
+  end
+  "Not Found"
+}
+</pre>
+</section>
+</article>
+
+<article>
+  <h1><span class='red'>DSLs</span></h1>
+  <ul>
+    <li>A Language dedicated to a particular problem domain</li>
+    <li>A miniature specialized programming language within a programming language</li>
+    <li>Expose functionality in simple, readable format</li>
+  </ul>
+</article>
+
+<article>
+<h3>Tea Maker <span class='red'>DSL</span></h3>
+<pre>
+tm = TeaMaker.new do
+  name "A Strong Tea"
+  ingredient :water, :amount => "1/2 cup"
+  ingredient :milk, :amount => "1/2 cup"
+  ingredient :sugar, :amount  => "1 spoon"
+  ingredient :tea, :amount => "2 spoons"
+
+  step :pour => :water
+  step :boil, :for => "1 minute"
+  step :pour => :milk
+  step :add => :tea
+  step :boil, :for => "2 minute"
+  step :add => :sugar
+  step :boil, :for => "1 minute"
+end
+</pre>
+</article>
+
+<article>
+<h3><span class='red'>HAML</span> DSL for HTML </h3>
+<pre>
+&lt;div id="profile"&gt;
+  &lt;div class="left column"&gt;
+    &lt;div id="date"&gt;<%= print_date %>&lt;/div&gt;
+    &lt;div id="address"&gt;<%= current_user.address %>&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="right column"&gt;
+    &lt;div id="email"&gt;<%= current_user.email %>&lt;/div&gt;
+    &lt;div id="bio"&gt;<%= current_user.bio %>&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+<pre>
+#profile
+  .left.column
+    #date= print_date
+    #address= current_user.address
+  .right.column
+    #email= current_user.email
+    #bio= current_user.bio
+</pre>
+</article>
+
+<article>
+<h3>Technology <span class='red'>Partner</span></h3>
+<p style='padding-left:50px'>
+<img src='images/HTML5_Logo.png'>
+</p>
+</article>
+
+
+      <article>
+        <p>
+          <h1>
+            Get <span class='red'>Inspired!</span>
+            <br>
+            Be a <span class='red'>Rubyist</span>
+          </h1>
+        </p>
+        <p class='build'>
+          <img src='images/ruby.png'>
+        </p>
       </article>
       
       <article>
-        <q>
-          The best way to predict the future is to invent it.
-        </q>
-        <div class='author'>
-          Alan Kay
-        </div>
-      </article>
-      
-      <article class='smaller'>
-        <q>
-          A distributed system is one in which the failure of a computer 
-          you didn’t even know existed can render your own computer unusable.
-        </q>
-        <div class='author'>
-          Leslie Lamport
-        </div>
-      </article>
-      
-      <article class='nobackground'>
-        <h3>
-          A slide with an embed + title
-        </h3>
-        
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
-      </article>
-
-      <article class='nobackground'>
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
-      </article>
-
-      <article class='fill'>
-        <h3>
-          Full-slide embed with (optional) slide title on top
-        </h3>
-        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
-      </article>
-      
-      <article>
-        <h3>
-          Thank you!
-        </h3>
-        
-        <ul>
-          <li>
-            <a href='http://www.google.com'>google.com</a>
-        </ul>
-      </article>
-
+        <h1> Thank <span class='red'>You!</span> </h1>
+        <p class='build'>
+          <span>
+            Arun Vydianathan | arun@ostryalabs.com | @arunsark
+          </span>
+        </p>
     </section>
 
   </body>
