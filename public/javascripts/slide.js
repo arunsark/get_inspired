@@ -11,7 +11,7 @@
 
 */
 
-var PERMANENT_URL_PREFIX = 'http://localhost:3000/';
+var PERMANENT_URL_PREFIX = location.protocol + "//" + location.host + "/";
 
 var SLIDE_CLASSES = ['far-past', 'past', 'current', 'next', 'far-next'];
 
